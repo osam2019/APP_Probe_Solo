@@ -1,4 +1,4 @@
-package com.radiantraccon.probe.fragment;
+﻿package com.radiantraccon.probe.fragment;
 
 
 import android.content.Context;
@@ -99,6 +99,7 @@ public class MainFragment extends Fragment {
             @Override
             public void onItemClick(View v, int pos) {
                 KeywordData data = adapter.getItem(pos);
+                CrawlOption.loadPreferences(getContext());
                 int startPage = 1;
                 int lastPage = startPage + CrawlOption.pagesPerCrawl - 1;
                 ((MainActivity)getActivity()).crawl(data.getAddress(), data.getKeyword(), Integer.toString(startPage), Integer.toString(lastPage), "true");
