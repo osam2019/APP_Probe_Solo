@@ -12,7 +12,8 @@ Java Development Kit<br><br>
 ## 설치 안내 (Installation Process) <br>
 [Android Studio Installation](https://developer.android.com/studio/install)을 참고해주세요.<br><br>
 ## 사용법 (Getting Started) <br>
-앱을 실행하고 오른쪽 상단의 +버튼을 눌러 데이터를 추가하신 후 사용하시면 됩니다.<br><br>
+안드로이드 스튜디오로 빌드한 후 에뮬레이터나 apk로 앱을 실행합니다. 그 후 오른쪽 상단의 +버튼을 눌러 데이터를 추가하신 후 사용하시면 됩니다.<br>
+apk는 추후에 플레이스토어에 업로드 할 예정입니다.<br><br>
 ## 파일 정보 및 목록 (File Manifest) <br>
 * fragment/ <br>
 Fragment 관련 파일입니다. Single Activity 구조를 따르고 있습니다.<br>
