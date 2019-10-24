@@ -1,0 +1,30 @@
+<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        app:key="probe_category"
+        app:title="탐색"
+        >
+        <SeekBarPreference
+            app:key="pagesPerCrawl"
+            app:title="한번에 탐색할 페이지 수"
+            android:max="10"
+            app:min="1"
+            android:defaultValue="5"
+            app:showSeekBarValue="true"
+            app:summary=""/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        app:key="etc_category"
+        app:title="기타"
+        >
+        <Preference
+            app:title="Bug report"
+            app:summary="khd1326@naver.com"/>
+        <Preference
+            app:title="Contribute on Github"
+            app:summary="https://github.com/"/>
+        <Preference
+            app:title="App version"
+            app:summary="development build alpha01"/>
+    </PreferenceCategory>
+</androidx.preference.PreferenceScreen>

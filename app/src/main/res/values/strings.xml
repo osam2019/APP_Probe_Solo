@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Probe</string>
+    <string name="keywordData_filename">keyword_data.json</string>
+    <string name="addressData_filename">address_data.json</string>
+    <string name="resultData_filename">result_data.json</string>
+    <string name="preferences_filename">sharedPref_data</string>
+
+    <string name="quasarzone_sale">퀘이사존 할인정보 게시판</string>
+    <string name="quasarzone_game">퀘이사존 게임 뉴스</string>
+    <string name="quasarzone_hardware">퀘이사존 하드웨어 뉴스 </string>
+    <string name="quasarzone_mobile">퀘이사존 모바일 뉴스</string>
+
+    <string name="okky_tech">Okky Tech</string>
+    <string name="okky_columns">Okky 칼럼</string>
+    <string name="okky_jobs">Okky Jobs</string>
+
+    <string name="ruliweb_sale">루리웹 핫딜 게시판</string>
+    <string name="ruliweb_pc">루리웹 PC정보 게시판</string>
+    <string name="ruliweb_console">루리웹 콘솔정보 게시판</string>
+    <string name="ruliweb_mobile">루리웹 모바일정보 게시판</string>
+    <string name="bottom_menu1">Search</string>
+    <string name="bottom_menu2">History</string>
+    <string name="bottom_menu3">Settings</string>
+
+    <string name="toolbar_add">Add</string>
+    <string name="toolbar_search">Search</string>
+    <string name="toolbar_sortByTitle">제목으로 정렬되었습니다.</string>
+    <string name="toolbar_sortByAddress">주소로 정렬되었습니다.</string>
+    <string name="toolbar_sortByDesc">설명으로 정렬되었습니다.</string>
+
+    <string name="mainFragment_noItems">저장된 설정이 없습니다.</string>
+
+    <string name="addFragment_keyword">검색할 키워드를 입력하세요.</string>
+    <string name="addFragment_desc">간단한 설명을 입력하세요.</string>
+    <string name="addFragment_submit">확인</string>
+    <string name="addFragment_address">사이트를 선택해주세요.</string>
+
+    <string name="resultFragment_guide">결과가 없습니다.</string>
+    <string name="resultFragment_startPage">p부터</string>
+    <string name="resultFragment_lastPage">p까지</string>
+    <string name="resultFragment_submit">탐색</string>
+
+    <string name="optionFragment_page">한번에 탐색해볼 페이지 수</string>
+    <string name="optionFragment_setTime">백그라운드 탐색 주기(분)</string>
+    <string name="optionFragment_save">저 장</string>
+
+    <string name="dialog_nullInput">값을 입력해주세요</string>
+    <string name="dialog_confirm">확인</string>
+</resources>

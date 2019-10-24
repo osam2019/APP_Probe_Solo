@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ResultFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="21">
+
+        <TextView
+            android:id="@+id/textView_guide"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/resultFragment_guide"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView_result"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="18"
+            android:scrollbars="vertical">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+            <EditText
+                android:id="@+id/editText_startPage"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:imeOptions="actionNext"
+                android:inputType="numberSigned"
+                app:layout_constraintLeft_toLeftOf="@id/textView"
+                app:layout_constraintTop_toBottomOf="@+id/recyclerView_result" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/resultFragment_startPage"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                app:layout_constraintEnd_toStartOf="@+id/editText_lastPage"
+                app:layout_constraintLeft_toRightOf="@id/editText_startPage"
+                app:layout_constraintTop_toBottomOf="@+id/recyclerView_result" />
+
+            <EditText
+                android:id="@+id/editText_lastPage"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:ems="10"
+                android:imeOptions="actionDone"
+                android:inputType="numberSigned"
+                app:layout_constraintTop_toBottomOf="@+id/recyclerView_result"
+                tools:layout_editor_absoluteX="262dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/resultFragment_lastPage"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                tools:layout_editor_absoluteX="346dp"
+                tools:layout_editor_absoluteY="586dp" />
+
+            <Button
+                android:id="@+id/button_crawl"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:text="@string/resultFragment_submit"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                tools:layout_editor_absoluteX="95dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

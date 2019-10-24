@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    tools:context=".fragment.AddFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        android:weightSum="10">
+
+        <EditText
+            android:id="@+id/editText_keyword"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/addFragment_keyword"
+            android:imeOptions="actionNext"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editText_desc"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/addFragment_desc"
+            android:imeOptions="actionDone"
+            android:inputType="textPersonName" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6" />
+
+        <Button
+            android:id="@+id/button_address"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="8dp"
+            android:layout_weight="1"
+            android:text="@string/addFragment_address"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <Button
+            android:id="@+id/button_submit"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="@string/addFragment_submit"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    </LinearLayout>
+</FrameLayout>
