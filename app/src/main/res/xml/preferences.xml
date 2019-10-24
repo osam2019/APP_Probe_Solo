@@ -1,4 +1,4 @@
-<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+﻿<androidx.preference.PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:android="http://schemas.android.com/apk/res/android">
     <PreferenceCategory
         app:key="probe_category"
@@ -22,7 +22,7 @@
             app:summary="khd1326@naver.com"/>
         <Preference
             app:title="Contribute on Github"
-            app:summary="https://github.com/"/>
+            app:summary="https://github.com/osam2019/APP_Probe_Solo"/>
         <Preference
             app:title="App version"
             app:summary="development build alpha01"/>
