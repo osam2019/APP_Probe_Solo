@@ -5,7 +5,7 @@
 ## 실행 화면 (Screenshot)
 ![s1](./screenshots/5_mainWithData.png)
 ![s2](./screenshots/7_result1.png)
-![s3](./screenshots/8_web2.png)<br><br>
+![s3](./screenshots/8_web1.png)<br><br>
 ## 컴퓨터 구성 / 필수 조건 안내 (Prerequisites) <br>
 Android Studio<br><br>
 Java Development Kit<br><br>
